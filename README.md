@@ -11,13 +11,12 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Composer Update).
-- [cp .env.example .env).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Composer Update.
+- cp .env.example .env.
+- Ganti Nama Database (bebas)
+- php artisan key:generate
+- php artisan serve
+
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
