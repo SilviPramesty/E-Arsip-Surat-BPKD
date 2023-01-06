@@ -15,6 +15,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - cp .env.example .env.
 - Ganti Nama Database (bebas)
 - php artisan key:generate
+- php artisan migrate --seed
 - php artisan serve
 
 
