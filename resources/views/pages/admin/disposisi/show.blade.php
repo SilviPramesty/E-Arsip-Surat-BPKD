@@ -85,8 +85,8 @@
                                             <td>{{ $item->letter->disposisi }}</td>
                                         </tr>
                                         <tr>
-                                            <th>Catatan Rektor</th>
-                                            <td>{{ $item->catatan_rektor }}</td>
+                                            <th>Catatan kadis</th>
+                                            <td>{{ $item->catatan_kadis }}</td>
                                         </tr>
                                         <tr>
                                             <th>Tanggal Penyelesaian</th>

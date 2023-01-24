@@ -163,12 +163,12 @@
                                     @enderror
                                 </div>
                                 <div class="mb-3 row">
-                                    <label for="catatan_rektors" class="col-sm-3 col-form-label">Catatan Rektor</label>
+                                    <label for="catatan_kadiss" class="col-sm-3 col-form-label">Catatan kadis</label>
                                     <div class="col-sm-9">
-                                        <textarea id="catatan_rektors" class="form-control @error('catatan_rektor') is-invalid @enderror" name="catatan_rektor"
-                                            placeholder="Catatan Rektor.." required>{{ old('catatan_rektor', $item->catatan_rektor) }}</textarea>
+                                        <textarea id="catatan_kadiss" class="form-control @error('catatan_kadis') is-invalid @enderror" name="catatan_kadis" placeholder="Catatan kadis.."
+                                            required>{{ old('catatan_kadis', $item->catatan_kadis) }}</textarea>
                                     </div>
-                                    @error('catatan_rektor')
+                                    @error('catatan_kadis')
                                         <div class="invalid-feedback">
                                             {{ $message }}
                                         </div>
@@ -273,15 +273,18 @@
                                             <input type="checkbox" value="Kabid Anggaran" name="penerima_disposisi_2[]"
                                                 {{ in_array('Kabid Anggaran', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Anggaran <br>
                                             <input type="checkbox" value="Kabid Pendataan Penetapan Dan Pelayanan" name="penerima_disposisi_2[]"
-                                                {{ in_array('Kabid Pendataan Penetapan Dan Pelayanan', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Pendataan
+                                                {{ in_array('Kabid Pendataan Penetapan Dan Pelayanan', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid
+                                            Pendataan
                                             Penetapan Dan Pelayanan <br>
                                             <input type="checkbox" value="Kabid Penagihan Dan Keberatan" name="penerima_disposisi_2[]"
-                                                {{ in_array('Kabid Penagihan Dan Keberatan', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Penagihan Dan
+                                                {{ in_array('Kabid Penagihan Dan Keberatan', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Penagihan
+                                            Dan
                                             Keberatan <br>
                                             <input type="checkbox" value="Kabid Perbendaharaan" name="penerima_disposisi_2[]"
                                                 {{ in_array('Kabid Perbendaharaan', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Perbendaharaan <br>
                                             <input type="checkbox" value="Kabid Pengelolaan Aset" name="penerima_disposisi_2[]"
-                                                {{ in_array('Kabid Pengelolaan Aset', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Pengelolaan Aset <br>
+                                                {{ in_array('Kabid Pengelolaan Aset', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Pengelolaan Aset
+                                            <br>
                                             <input class="mb-4" type="checkbox" value="Kabid Akuntansi" name="penerima_disposisi_2[]"
                                                 {{ in_array('Kabid Akuntansi', $penerima_disposisi_2) ? 'checked' : '' }}> Kabid Akuntansi <br>
                                             <input type="checkbox" value="Semua Kasubag" name="penerima_disposisi_2[]"
@@ -289,11 +292,13 @@
                                             <input type="checkbox" value="Kasubag Bina Program" name="penerima_disposisi_2[]"
                                                 {{ in_array('Kasubag Bina Program', $penerima_disposisi_2) ? 'checked' : '' }}> Kasubag Bina Program <br>
                                             <input type="checkbox" value="Kasubag Umum Dan Kepegawaian" name="penerima_disposisi_2[]"
-                                                {{ in_array('Kasubag Umum Dan Kepegawaian', $penerima_disposisi_2) ? 'checked' : '' }}> Kasubag Umum Dan Kepegawaian
+                                                {{ in_array('Kasubag Umum Dan Kepegawaian', $penerima_disposisi_2) ? 'checked' : '' }}> Kasubag Umum Dan
+                                            Kepegawaian
                                             <br>
                                             <input type="checkbox" value="Kasubag Keuangan" name="penerima_disposisi_2[]"
                                                 {{ in_array('Kasubag Keuangan', $penerima_disposisi_2) ? 'checked' : '' }}> Kasubag Keuangan <br>
-                                            <input type="checkbox" value="-" name="penerima_disposisi_2[]" {{ in_array('-', $penerima_disposisi_2) ? 'checked' : '' }}>
+                                            <input type="checkbox" value="-" name="penerima_disposisi_2[]"
+                                                {{ in_array('-', $penerima_disposisi_2) ? 'checked' : '' }}>
                                             -
                                         </div>
                                     </div>

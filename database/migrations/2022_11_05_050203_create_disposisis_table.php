@@ -20,7 +20,7 @@ class CreateDisposisisTable extends Migration
             $table->string('status');
             $table->string('sifat');
             $table->string('petunjuk')->nullable();
-            $table->text('catatan_rektor')->nullable();
+            $table->text('catatan_kadis')->nullable();
             $table->date('tgl_selesai')->nullable();
             $table->date('tgl_aju_kembali')->nullable();
             $table->text('penerima_disposisi_2')->nullable();

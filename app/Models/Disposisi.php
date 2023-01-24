@@ -14,7 +14,7 @@ class Disposisi extends Model
         'status',
         'sifat',
         'petunjuk',
-        'catatan_rektor',
+        'catatan_kadis',
         'tgl_selesai',
         'tgl_aju_kembali',
         'penerima_disposisi_2',

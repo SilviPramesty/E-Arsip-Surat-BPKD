@@ -216,35 +216,31 @@
                                     <div class="col">
                                         <td width="250" valign="top">
                                             <span style="font-size: x-small;">
-                                                <input type="checkbox" value="Kabid Akuntansi"
-                                                    name="penerima_disposisi_2[]"
+                                                <input type="checkbox" value="Kabid Akuntansi" name="penerima_disposisi_2[]"
                                                     {{ in_array('Kabid Akuntansi', $disposisi) ? 'checked' : '' }}>&nbsp;Kabid Akuntansi
                                             </span><br>
-                                            
+
                                             <span style="font-size: x-small;">
-                                                <input type="checkbox" value="Semua Kasubag"
-                                                    name="penerima_disposisi_2[]"
+                                                <input type="checkbox" value="Semua Kasubag" name="penerima_disposisi_2[]"
                                                     {{ in_array('Semua Kasubag', $disposisi) ? 'checked' : '' }}>&nbsp;Semua Kasubag
                                             </span><br>
-                                            
+
                                             <span style="font-size: x-small;">
-                                                <input type="checkbox" value="Kasubag Bina Program"
-                                                    name="penerima_disposisi_2[]"
+                                                <input type="checkbox" value="Kasubag Bina Program" name="penerima_disposisi_2[]"
                                                     {{ in_array('Kasubag Bina Program', $disposisi) ? 'checked' : '' }}>&nbsp;Kasubag Bina Program
                                             </span><br>
-                                            
+
                                             <span style="font-size: x-small;">
-                                                <input type="checkbox" value="Kasubag Umum Dan Kepegawaian"
-                                                    name="penerima_disposisi_2[]"
-                                                    {{ in_array('Kasubag Umum Dan Kepegawaian',$disposisi,)? 'checked': '' }}>&nbsp;Kasubag Umum Dan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kepegawaian
+                                                <input type="checkbox" value="Kasubag Umum Dan Kepegawaian" name="penerima_disposisi_2[]"
+                                                    {{ in_array('Kasubag Umum Dan Kepegawaian', $disposisi) ? 'checked' : '' }}>&nbsp;Kasubag Umum Dan
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kepegawaian
                                             </span><br>
-                                            
+
                                             <span style="font-size: x-small;">
-                                                <input type="checkbox" value="Kasubag Keuangan"
-                                                    name="penerima_disposisi_2[]"
+                                                <input type="checkbox" value="Kasubag Keuangan" name="penerima_disposisi_2[]"
                                                     {{ in_array('Kasubag Keuangan', $disposisi) ? 'checked' : '' }}>&nbsp;Kasubag Keuangan
                                             </span><br>
-                                            
+
                                         </td>
                                     </div>
                                 </div>
@@ -326,9 +322,9 @@
                     <table border="0" cellpadding="1" style="width: 400px;">
                         <tbody>
                             <tr valign="top">
-                                <td width="93"><span style="font-size: x-small;"> <u> CATATAN REKTOR</u> </span></td>
+                                <td width="93"><span style="font-size: x-small;"> <u> C Kadis</u> </span></td>
                                 <td width="8"><span style="font-size: x-small;">:</span></td>
-                                <td width="200" style="height: 50px;"><span style="font-size: x-small;"> {{ $item->catatan_rektor }} </span>
+                                <td width="200" style="height: 50px;"><span style="font-size: x-small;"> {{ $item->catatan_kadis }} </span>
                                 </td>
                             </tr>
                         </tbody>
