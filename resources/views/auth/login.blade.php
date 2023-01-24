@@ -13,7 +13,7 @@
                     <br>
                     <h3 class="fw-light text-center mt-3"><b>LOGIN E-ARSIP SURAT</b></h3>
                     <h3 class="fw-light text-center mb-3"><b>KANTOR BPKD KOTA LHOKSEMAWE</b></h3>
-                    <div class="col-xl-4 col-xxl-12 text-center"><img class="img-fluid" src="/admin/assets/img/logo-bpkd.png" style="max-width: 11rem" /></div>
+                    <div class="col-xl-4 col-xxl-12 mx-auto"><img class="img-fluid" src="/admin/assets/img/logo-bpkd.png" style="max-width"/></div>
                     <div class="card-body">
                         @if (session()->has('success'))
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
